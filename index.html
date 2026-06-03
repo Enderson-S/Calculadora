@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body class="container">
+    <header>
+        <h1>CALCULADORA</h1>
+        <h2>Digite o seu calculo!</h2>
+    </header>
+    <main class="calculadora">
+            <div id="display"></div>
+            
+           <input type="button" value="9" id="n9" class="botoes" onclick="botao('9')">
+           <input type="button" value="8" id="n8" class="botoes" onclick="botao('8')">
+           <input type="button" value="7" id="n7" class="botoes" onclick="botao('7')">
+           <input type="button" value="6" id="n6" class="botoes" onclick="botao('6')">
+           <input type="button" value="5" id="n5" class="botoes" onclick="botao('5')">
+           <input type="button" value="4" id="n4" class="botoes" onclick="botao('4')">
+           <input type="button" value="3" id="n3" class="botoes" onclick="botao('3')">
+           <input type="button" value="2" id="n2" class="botoes" onclick="botao('2')">
+           <input type="button" value="1" id="n1" class="botoes" onclick="botao('1')">
+           <input type="button" value="0" id="n0" class="botoes" onclick="botao('0')">
+           <input type="button" value="," id="virgula" class="botoes" onclick="botao('.')">
+           <input type="button" value="=" id="igual" class="botoes" onclick="calcular()">
+            <input type="button" value="+" id="ari1" class="botoes" onclick="aritimeticos('+')">
+            <input type="button" value="-" id="ari2" class="botoes" onclick="aritimeticos('-')">
+            <input type="button" value="/" id="ari3" class="botoes" onclick="aritimeticos('/')">
+            <input type="button" value="x" id="ari4" class="botoes" onclick="aritimeticos('*')">
+            <input type="button" value="C" id="limpar" onclick="limpar()">
+    </main>
+    <footer></footer>
+    <script src="script/index.js"></script>
+</body>
+</html>
