@@ -2,12 +2,14 @@ let display = document.getElementById('display')
 let numatual = ''
 let numanterior = ''
 let res = null
+let valdigitado = ''
 let valdisplay = ''
+
 const limitador = 17
 
 function botao(v) {
-display.innerHTML = ''
-numatual += v
+valdigitado = v
+numatual += valdigitado
 display.innerHTML = (numatual)
 valdisplay = display.textContent;
 
@@ -21,6 +23,13 @@ function aritimeticos(a) {
    numanterior = numatual
    numatual = ''
    display.innerHTML += a
+}
+
+function apagarultimo() {
+   if (numatual.length != '') {
+   numatual = numatual.slice(0, -1);
+   display.innerHTML = numatual
+   }
 }
 
 function limpar() {
