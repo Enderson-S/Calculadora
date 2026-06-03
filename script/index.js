@@ -2,10 +2,18 @@ let display = document.getElementById('display')
 let numatual = ''
 let numanterior = ''
 let res = null
+let valdisplay = ''
+const limitador = 17
 
 function botao(v) {
+display.innerHTML = ''
 numatual += v
 display.innerHTML = (numatual)
+valdisplay = display.textContent;
+
+if (valdisplay.length > limitador) {
+   display.textContent = valdisplay.substring(0, limitador)
+}
 }
 
 function aritimeticos(a) {
@@ -29,6 +37,10 @@ let nanterior = Number.parseFloat(numanterior)
 if (aritimetico === "/" && numatual === "0") {
    alert("Divisao por zero gera resultado infinito")
    limpar()
+}
+
+if (numatual === '') {
+   natual = nanterior
 }
 
    switch (aritimetico) {
@@ -60,4 +72,7 @@ if (aritimetico === "/" && numatual === "0") {
       aritimetico = ''
       break
    }
+
+   numatual = ''
+   numanterior = ''
 }
