@@ -73,6 +73,6 @@ if (numatual === '') {
       break
    }
 
-   numatual = ''
-   numanterior = ''
+   natual = ''
+   nanterior = ''
 }
