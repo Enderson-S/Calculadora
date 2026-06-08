@@ -1,13 +1,19 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 320px) and (max-width: 500px){
+    * {
+        font-size: 1.1em;
+    }
     .calculadora {
-        width: 100vw;
-        height: 500px;
+        width: 95vw;
+        height: 450px;
+        margin-left: 3px;
+        margin-top: 0px;
     }
 
     div#display {
-        width: 70vw;
+        width: 88vw;
+        font-size: 2em;
     }
 
     .botoes {
