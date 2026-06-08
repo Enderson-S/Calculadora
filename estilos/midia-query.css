@@ -3,6 +3,7 @@
 @media screen and (min-width: 320px) and (max-width: 500px){
     .calculadora {
         width: 75vw;
+        height: 500px;
     }
 
     div#display {

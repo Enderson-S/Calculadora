@@ -43,6 +43,7 @@ h2 {
 }
 
 .calculadora {
+    height: 550px;
     padding: 10px;
     border: 3px solid black;
     box-shadow: 4px 15px 5px black;
@@ -57,7 +58,7 @@ h2 {
 }
 
 #display {
-    width: 360px;
+    width: 380px;
     height: 110px;
     text-align: right;
     text-shadow: 1px 2px 2px gray;
