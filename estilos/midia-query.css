@@ -2,6 +2,14 @@
 
 @media screen and (min-width: 320px) and (max-width: 500px){
     .calculadora {
-        width: 80vw;
+        width: 75vw;
+    }
+
+    div#display {
+        width: 70vw;
+    }
+
+    .botoes {
+        width: 82px;
     }
 }

@@ -67,7 +67,7 @@ if (numatual === '') {
       aritimetico = ''
       break
 
-      case '*':
+      case 'x':
       res = nanterior * natual
       numatual = res
       display.innerHTML = res
