@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 320px) and (max-width: 500px){
+    .calculadora {
+        width: 80vw;
+    }
+}
